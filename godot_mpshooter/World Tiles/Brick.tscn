@@ -6,6 +6,7 @@
 extents = Vector2( 29, 30 )
 
 [node name="Brick" type="StaticBody2D"]
+z_index = 4
 __meta__ = {
 "_edit_group_": true
 }

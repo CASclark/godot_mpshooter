@@ -14,10 +14,7 @@ position = Vector2( 152, 99 )
 [node name="WorldParts" type="Node2D" parent="."]
 
 [node name="Grass" parent="WorldParts" instance=ExtResource( 2 )]
-position = Vector2( 30, 480 )
-
-[node name="Grass2" parent="WorldParts/Grass" instance=ExtResource( 2 )]
-position = Vector2( 61, 0 )
+position = Vector2( 28.892, 480 )
 
 [node name="Grass4" parent="WorldParts/Grass" instance=ExtResource( 2 )]
 position = Vector2( 122, 0 )
@@ -61,44 +58,737 @@ position = Vector2( 852, 0 )
 [node name="Grass9" parent="WorldParts/Grass" instance=ExtResource( 2 )]
 position = Vector2( 913, 0 )
 
+[node name="Grass2" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 61, 0 )
+
+[node name="Grass17" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 1095.27, -0.735077 )
+
+[node name="Grass18" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 1156.81, -0.735077 )
+
+[node name="Grass19" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 1218.34, -0.735077 )
+
+[node name="Grass20" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 1279.87, -0.735077 )
+
+[node name="Grass21" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 1341.41, -0.735077 )
+
+[node name="Grass22" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 1402.94, -0.735077 )
+
+[node name="Grass23" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 1464.47, -0.735077 )
+
+[node name="Grass24" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 1526.01, -0.735077 )
+
+[node name="Grass25" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 1708.85, -0.735077 )
+
+[node name="Grass26" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 1770.38, -0.735077 )
+
+[node name="Grass27" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 1831.91, -0.735077 )
+
+[node name="Grass28" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 1893.45, -0.735077 )
+
+[node name="Grass29" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 1954.98, -0.735077 )
+
+[node name="Grass30" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 2016.51, -0.735077 )
+
+[node name="Grass31" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 2078.05, -0.735077 )
+
+[node name="Grass32" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 2141.86, -63.6734 )
+
+[node name="Grass33" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 2203.4, -63.6734 )
+
+[node name="Grass34" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 2264.93, -63.6734 )
+
+[node name="Grass35" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 2326.46, -63.6734 )
+
+[node name="Grass36" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 2388, -63.6734 )
+
+[node name="Grass37" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 2449.53, -63.6734 )
+
+[node name="Grass38" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 2511.06, -63.6734 )
+
+[node name="Grass39" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 2572.59, -63.6734 )
+
+[node name="Grass40" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 2634.13, -63.6734 )
+
+[node name="Grass41" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 2695.66, -63.6734 )
+
+[node name="Grass42" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 2757.19, -63.6734 )
+
+[node name="Grass43" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 2818.73, -63.6734 )
+
+[node name="Grass44" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 2880.26, -63.6734 )
+
+[node name="Grass45" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 2941.79, -63.6734 )
+
+[node name="Grass46" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 3003.33, -63.6734 )
+
+[node name="Grass47" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 3064.86, -63.6734 )
+
+[node name="Grass48" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 1104.48, -338.118 )
+
+[node name="Grass49" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 1164.87, -338.118 )
+
+[node name="Grass50" parent="WorldParts/Grass" instance=ExtResource( 2 )]
+position = Vector2( 1227.21, -338.118 )
+
 [node name="Door" parent="WorldParts" instance=ExtResource( 3 )]
 position = Vector2( 458, 425 )
+
+[node name="Door2" parent="WorldParts/Door" instance=ExtResource( 3 )]
+position = Vector2( 123.602, 0 )
+
+[node name="Door3" parent="WorldParts/Door" instance=ExtResource( 3 )]
+position = Vector2( 980.73, 0 )
+
+[node name="Door4" parent="WorldParts/Door" instance=ExtResource( 3 )]
+position = Vector2( 1528.12, 0 )
+
+[node name="Door5" parent="WorldParts/Door" instance=ExtResource( 3 )]
+position = Vector2( 1720.11, -65.0536 )
 
 [node name="Brick" parent="WorldParts" instance=ExtResource( 4 )]
 position = Vector2( 30, 419 )
 
-[node name="Brick2" parent="WorldParts" instance=ExtResource( 4 )]
-position = Vector2( 30, 359 )
+[node name="Brick28" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 59.8565, 0 )
 
-[node name="Brick4" parent="WorldParts" instance=ExtResource( 4 )]
-position = Vector2( 30, 298 )
+[node name="Brick30" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 121.073, 0 )
 
-[node name="Brick3" parent="WorldParts" instance=ExtResource( 4 )]
-position = Vector2( 30, 238 )
+[node name="Brick2" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 0, -60 )
 
-[node name="Brick5" parent="WorldParts" instance=ExtResource( 4 )]
-position = Vector2( -30, 238 )
+[node name="Brick29" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 59.8565, -58.6396 )
 
-[node name="Brick6" parent="WorldParts" instance=ExtResource( 4 )]
-position = Vector2( -90, 238 )
+[node name="Brick4" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 0, -121 )
 
-[node name="Brick7" parent="WorldParts" instance=ExtResource( 4 )]
-position = Vector2( -90, 177.706 )
+[node name="Brick3" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 0, -181 )
 
-[node name="Brick8" parent="WorldParts" instance=ExtResource( 4 )]
-position = Vector2( -90, 118.92 )
+[node name="Brick5" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( -60, -181 )
 
-[node name="Brick12" parent="WorldParts" instance=ExtResource( 4 )]
-position = Vector2( 454.15, 338.992 )
+[node name="Brick6" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( -120, -181 )
 
-[node name="Brick10" parent="WorldParts" instance=ExtResource( 4 )]
-position = Vector2( -90, 58.6266 )
+[node name="Brick7" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( -120, -241.294 )
 
-[node name="Brick9" parent="WorldParts" instance=ExtResource( 4 )]
-position = Vector2( -90, -0.159689 )
+[node name="Brick8" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( -120, -300.08 )
 
-[node name="Brick11" parent="WorldParts" instance=ExtResource( 4 )]
-position = Vector2( -90, -57.4386 )
+[node name="Brick12" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 424.15, -80.0082 )
 
-[node name="CastleTop" parent="." instance=ExtResource( 5 )]
+[node name="Brick42" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 484.443, -80.0082 )
+
+[node name="Brick98" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1403.91, -80.0082 )
+
+[node name="Brick100" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1403.91, -140.397 )
+
+[node name="Brick101" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1464.3, -140.397 )
+
+[node name="Brick104" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1640.11, -200.172 )
+
+[node name="Brick105" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1699.88, -200.172 )
+
+[node name="Brick102" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1949.35, -140.397 )
+
+[node name="Brick103" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1888.97, -140.397 )
+
+[node name="Brick99" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1949.35, -80.0082 )
+
+[node name="Brick47" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 544.737, -80.0082 )
+
+[node name="Brick10" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( -120, -360.373 )
+
+[node name="Brick9" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( -120, -419.16 )
+
+[node name="Brick11" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( -120, -476.439 )
+
+[node name="Brick13" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( -59.7064, -476.439 )
+
+[node name="Brick15" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2.09453, -476.439 )
+
+[node name="Brick14" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 62.3881, -476.439 )
+
+[node name="Brick19" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 122.682, -476.439 )
+
+[node name="Brick23" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 122.682, -537.655 )
+
+[node name="Brick18" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 182.975, -537.655 )
+
+[node name="Brick17" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 243.416, -537.655 )
+
+[node name="Brick68" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 245.688, -601.274 )
+
+[node name="Brick69" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 245.688, -665.558 )
+
+[node name="Brick70" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 245.688, -729.176 )
+
+[node name="Brick71" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 245.688, -791.209 )
+
+[node name="Brick72" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 306.429, -791.209 )
+
+[node name="Brick74" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 368.462, -791.209 )
+
+[node name="Brick73" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 429.202, -791.209 )
+
+[node name="Brick78" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 491.236, -791.209 )
+
+[node name="Brick77" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 551.976, -791.209 )
+
+[node name="Brick76" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 614.009, -791.209 )
+
+[node name="Brick75" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 674.75, -791.209 )
+
+[node name="Brick86" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 736.589, -791.209 )
+
+[node name="Brick85" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 797.33, -791.209 )
+
+[node name="Brick84" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 859.363, -791.209 )
+
+[node name="Brick83" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 920.103, -791.209 )
+
+[node name="Brick82" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 982.136, -791.209 )
+
+[node name="Brick81" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1042.88, -791.209 )
+
+[node name="Brick80" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1104.91, -791.209 )
+
+[node name="Brick79" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1165.65, -791.209 )
+
+[node name="Brick94" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1227.49, -791.209 )
+
+[node name="Brick93" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1288.23, -791.209 )
+
+[node name="Brick92" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1350.26, -791.209 )
+
+[node name="Brick91" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1411, -791.209 )
+
+[node name="Brick90" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1473.04, -791.209 )
+
+[node name="Brick89" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1533.78, -791.209 )
+
+[node name="Brick88" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1595.81, -791.209 )
+
+[node name="Brick155" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1657.48, -853.09 )
+
+[node name="Brick154" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1718.22, -853.09 )
+
+[node name="Brick153" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1780.25, -853.09 )
+
+[node name="Brick131" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1840.99, -853.09 )
+
+[node name="Brick130" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1903.03, -853.09 )
+
+[node name="Brick129" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1963.77, -853.09 )
+
+[node name="Brick118" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2025.8, -853.09 )
+
+[node name="Brick163" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2149.35, -853.09 )
+
+[node name="Brick162" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2210.09, -853.09 )
+
+[node name="Brick161" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2272.12, -853.09 )
+
+[node name="Brick160" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2705.73, -483.395 )
+
+[node name="Brick167" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2709.25, -356.812 )
+
+[node name="Brick168" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2769.02, -356.812 )
+
+[node name="Brick170" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2830.55, -356.812 )
+
+[node name="Brick169" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2892.09, -356.812 )
+
+[node name="Brick172" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2955.38, -356.812 )
+
+[node name="Brick171" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 3018.67, -356.812 )
+
+[node name="Brick173" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 3016.91, -293.521 )
+
+[node name="Brick174" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 3080.2, -293.521 )
+
+[node name="Brick178" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 3143.49, -293.521 )
+
+[node name="Brick179" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 3143.49, -230.23 )
+
+[node name="Brick181" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 3143.49, -168.697 )
+
+[node name="Brick180" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 3143.49, -105.406 )
+
+[node name="Brick183" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 3143.49, -43.8727 )
+
+[node name="Brick182" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 3143.49, 19.4185 )
+
+[node name="Brick184" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 3143.49, 84.4677 )
+
+[node name="Brick185" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 3081.96, 84.4677 )
+
+[node name="Brick186" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 3020.43, 84.4677 )
+
+[node name="Brick187" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2960.65, 84.4677 )
+
+[node name="Brick175" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 3062.62, -195.068 )
+
+[node name="Brick188" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2818.34, -65.5249 )
+
+[node name="Brick176" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 3062.62, -130.019 )
+
+[node name="Brick177" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 3062.62, -64.9697 )
+
+[node name="Brick189" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 3001.55, -64.9697 )
+
+[node name="Brick159" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2640.83, -545.275 )
+
+[node name="Brick158" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2579.4, -545.275 )
+
+[node name="Brick165" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2519.1, -545.275 )
+
+[node name="Brick157" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2373.28, -305.687 )
+
+[node name="Brick106" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1595.81, -727.742 )
+
+[node name="Brick107" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1595.81, -665.946 )
+
+[node name="Brick133" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2209.99, -791.209 )
+
+[node name="Brick132" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2271.15, -791.209 )
+
+[node name="Brick135" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2330.28, -791.209 )
+
+[node name="Brick134" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2704.02, -546.862 )
+
+[node name="Brick166" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2707.53, -420.279 )
+
+[node name="Brick137" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2330.28, -731.066 )
+
+[node name="Brick136" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2391.44, -731.066 )
+
+[node name="Brick139" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2396.15, -669.492 )
+
+[node name="Brick138" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2457.31, -669.492 )
+
+[node name="Brick141" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2396.15, -607.155 )
+
+[node name="Brick140" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2457.31, -607.155 )
+
+[node name="Brick142" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2457.31, -544.818 )
+
+[node name="Brick143" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2447.57, -65.6056 )
+
+[node name="Brick144" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2447.57, -125.899 )
+
+[node name="Brick145" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2510.88, -65.6056 )
+
+[node name="Brick146" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2385.77, -65.6056 )
+
+[node name="Brick128" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2086.85, -665.946 )
+
+[node name="Brick112" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1657.61, -667.616 )
+
+[node name="Brick114" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1717.73, -667.616 )
+
+[node name="Brick117" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1903.12, -667.616 )
+
+[node name="Brick116" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1963.25, -667.616 )
+
+[node name="Brick123" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1717.73, -435.46 )
+
+[node name="Brick122" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1779.53, -435.46 )
+
+[node name="Brick121" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1841.33, -435.46 )
+
+[node name="Brick120" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1903.12, -435.46 )
+
+[node name="Brick119" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1963.25, -435.46 )
+
+[node name="Brick115" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2025.05, -667.616 )
+
+[node name="Brick108" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1595.81, -604.149 )
+
+[node name="Brick111" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1595.81, -544.022 )
+
+[node name="Brick109" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1534.01, -605.819 )
+
+[node name="Brick110" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1473.89, -605.819 )
+
+[node name="Brick127" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2086.85, -604.149 )
+
+[node name="Brick126" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2086.85, -544.022 )
+
+[node name="Brick125" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2205.43, -605.819 )
+
+[node name="Brick147" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2205.43, -544.473 )
+
+[node name="Brick148" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2205.43, -482.656 )
+
+[node name="Brick149" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2205.43, -422.006 )
+
+[node name="Brick150" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2145.94, -422.006 )
+
+[node name="Brick151" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2145.94, -361.356 )
+
+[node name="Brick152" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2145.94, -299.476 )
+
+[node name="Brick164" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2145.94, -237.595 )
+
+[node name="Brick124" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2145.3, -605.819 )
+
+[node name="Brick87" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1165.65, -791.209 )
+
+[node name="Brick113" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1595.64, -853.09 )
+
+[node name="Brick156" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2087.51, -853.09 )
+
+[node name="Brick16" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 305.07, -537.655 )
+
+[node name="Brick27" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 366.189, -537.655 )
+
+[node name="Brick26" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 426.482, -537.655 )
+
+[node name="Brick25" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 486.923, -537.655 )
+
+[node name="Brick24" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 547.216, -537.655 )
+
+[node name="Brick39" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 547.216, -597.512 )
+
+[node name="Brick40" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 607.073, -597.512 )
+
+[node name="Brick41" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 668.29, -597.512 )
+
+[node name="Brick46" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 850.58, -597.512 )
+
+[node name="Brick45" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 911.797, -597.512 )
+
+[node name="Brick44" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 973.013, -597.512 )
+
+[node name="Brick48" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 973.013, -537.655 )
+
+[node name="Brick49" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 973.013, -476.439 )
+
+[node name="Brick50" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1034.23, -476.439 )
+
+[node name="Brick55" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1094.09, -476.439 )
+
+[node name="Brick58" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1094.09, -537.655 )
+
+[node name="Brick56" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1215.16, -537.655 )
+
+[node name="Brick57" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1275.55, -537.655 )
+
+[node name="Brick95" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1275.55, -599.992 )
+
+[node name="Brick96" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1275.55, -477.267 )
+
+[node name="Brick97" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1337.89, -537.655 )
+
+[node name="Brick31" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 547.216, -476.439 )
+
+[node name="Brick32" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 547.216, -416.582 )
+
+[node name="Brick33" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 608.433, -416.582 )
+
+[node name="Brick34" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 669.65, -416.582 )
+
+[node name="Brick35" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 669.65, -355.365 )
+
+[node name="Brick36" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 732.227, -355.365 )
+
+[node name="Brick43" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 860.102, -275.103 )
+
+[node name="Brick51" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 921.319, -275.103 )
+
+[node name="Brick53" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 982.536, -275.103 )
+
+[node name="Brick54" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1042.39, -275.103 )
+
+[node name="Brick59" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 912.294, 120.466 )
+
+[node name="Brick60" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 972.128, 120.466 )
+
+[node name="Brick61" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1033.07, 120.466 )
+
+[node name="Brick62" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1094.01, 120.466 )
+
+[node name="Brick66" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1525.87, 120.466 )
+
+[node name="Brick65" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1585.7, 120.466 )
+
+[node name="Brick64" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1646.64, 120.466 )
+
+[node name="Brick67" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 2140.67, 60.6915 )
+
+[node name="Brick63" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 1707.58, 120.466 )
+
+[node name="Brick52" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 921.319, -215.247 )
+
+[node name="Brick37" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 732.227, 1.05276 )
+
+[node name="Brick38" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 793.444, 1.05276 )
+
+[node name="Brick21" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 309.592, -346.807 )
+
+[node name="Brick20" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 247.791, -346.807 )
+
+[node name="Brick22" parent="WorldParts/Brick" instance=ExtResource( 4 )]
+position = Vector2( 371.393, -346.807 )
+
+[node name="CastleTop" parent="WorldParts" instance=ExtResource( 5 )]
 position = Vector2( 453.709, 280.365 )
+
+[node name="CastleTop7" parent="WorldParts/CastleTop" instance=ExtResource( 5 )]
+position = Vector2( 120.587, 0 )
+
+[node name="CastleTop5" parent="WorldParts/CastleTop" instance=ExtResource( 5 )]
+position = Vector2( 610.704, -399.734 )
+
+[node name="CastleTop6" parent="WorldParts/CastleTop" instance=ExtResource( 5 )]
+position = Vector2( 852.255, -520.464 )
+
+[node name="CastleTop4" parent="WorldParts/CastleTop" instance=ExtResource( 5 )]
+position = Vector2( 370.022, 80.2621 )
+
+[node name="CastleTop8" parent="WorldParts/CastleTop" instance=ExtResource( 5 )]
+position = Vector2( 1040.66, -61.9433 )
+
+[node name="CastleTop12" parent="WorldParts/CastleTop" instance=ExtResource( 5 )]
+position = Vector2( 1216.47, -121.718 )
+
+[node name="CastleTop13" parent="WorldParts/CastleTop" instance=ExtResource( 5 )]
+position = Vector2( 1276.24, -121.718 )
+
+[node name="CastleTop9" parent="WorldParts/CastleTop" instance=ExtResource( 5 )]
+position = Vector2( 979.567, -61.9433 )
+
+[node name="CastleTop11" parent="WorldParts/CastleTop" instance=ExtResource( 5 )]
+position = Vector2( 1526.31, -61.9433 )
+
+[node name="CastleTop15" parent="WorldParts/CastleTop" instance=ExtResource( 5 )]
+position = Vector2( 2394.25, 12.0814 )
+
+[node name="CastleTop16" parent="WorldParts/CastleTop" instance=ExtResource( 5 )]
+position = Vector2( 2025.98, -47.1384 )
+
+[node name="CastleTop14" parent="WorldParts/CastleTop" instance=ExtResource( 5 )]
+position = Vector2( 1949.95, -228.544 )
+
+[node name="CastleTop10" parent="WorldParts/CastleTop" instance=ExtResource( 5 )]
+position = Vector2( 1465.22, -61.9433 )
+
+[node name="CastleTop2" parent="WorldParts/CastleTop" instance=ExtResource( 5 )]
+position = Vector2( -176.359, -266.799 )
+
+[node name="CastleTop3" parent="WorldParts/CastleTop" instance=ExtResource( 5 )]
+position = Vector2( -52.7569, -268.306 )

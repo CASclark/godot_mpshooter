@@ -33,4 +33,8 @@ func _physics_process(delta):
 		
 
 	move_and_slide(movement, UP)
+	
+	
+	$hand.look_at(get_global_mouse_position())
+	$gun.look_at(get_global_mouse_position())
 		
