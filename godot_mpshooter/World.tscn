@@ -1,57 +1,104 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://World Tiles/Grass.tscn" type="PackedScene" id=2]
+[ext_resource path="res://World Tiles/Door.tscn" type="PackedScene" id=3]
+[ext_resource path="res://World Tiles/Brick.tscn" type="PackedScene" id=4]
+[ext_resource path="res://World Tiles/CastleTop.tscn" type="PackedScene" id=5]
 
 [node name="World" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 152, 99 )
 
-[node name="Grass" parent="." instance=ExtResource( 2 )]
+[node name="WorldParts" type="Node2D" parent="."]
+
+[node name="Grass" parent="WorldParts" instance=ExtResource( 2 )]
 position = Vector2( 30, 480 )
 
-[node name="Grass2" parent="Grass" instance=ExtResource( 2 )]
+[node name="Grass2" parent="WorldParts/Grass" instance=ExtResource( 2 )]
 position = Vector2( 61, 0 )
 
-[node name="Grass4" parent="Grass" instance=ExtResource( 2 )]
+[node name="Grass4" parent="WorldParts/Grass" instance=ExtResource( 2 )]
 position = Vector2( 122, 0 )
 
-[node name="Grass3" parent="Grass" instance=ExtResource( 2 )]
+[node name="Grass3" parent="WorldParts/Grass" instance=ExtResource( 2 )]
 position = Vector2( 183, 0 )
 
-[node name="Grass8" parent="Grass" instance=ExtResource( 2 )]
+[node name="Grass8" parent="WorldParts/Grass" instance=ExtResource( 2 )]
 position = Vector2( 243, 0 )
 
-[node name="Grass7" parent="Grass" instance=ExtResource( 2 )]
+[node name="Grass7" parent="WorldParts/Grass" instance=ExtResource( 2 )]
 position = Vector2( 304, 0 )
 
-[node name="Grass6" parent="Grass" instance=ExtResource( 2 )]
+[node name="Grass6" parent="WorldParts/Grass" instance=ExtResource( 2 )]
 position = Vector2( 365, 0 )
 
-[node name="Grass5" parent="Grass" instance=ExtResource( 2 )]
+[node name="Grass5" parent="WorldParts/Grass" instance=ExtResource( 2 )]
 position = Vector2( 426, 0 )
 
-[node name="Grass16" parent="Grass" instance=ExtResource( 2 )]
+[node name="Grass16" parent="WorldParts/Grass" instance=ExtResource( 2 )]
 position = Vector2( 487, 0 )
 
-[node name="Grass15" parent="Grass" instance=ExtResource( 2 )]
+[node name="Grass15" parent="WorldParts/Grass" instance=ExtResource( 2 )]
 position = Vector2( 548, 0 )
 
-[node name="Grass14" parent="Grass" instance=ExtResource( 2 )]
+[node name="Grass14" parent="WorldParts/Grass" instance=ExtResource( 2 )]
 position = Vector2( 609, 0 )
 
-[node name="Grass13" parent="Grass" instance=ExtResource( 2 )]
+[node name="Grass13" parent="WorldParts/Grass" instance=ExtResource( 2 )]
 position = Vector2( 670, 0 )
 
-[node name="Grass12" parent="Grass" instance=ExtResource( 2 )]
+[node name="Grass12" parent="WorldParts/Grass" instance=ExtResource( 2 )]
 position = Vector2( 730, 0 )
 
-[node name="Grass11" parent="Grass" instance=ExtResource( 2 )]
+[node name="Grass11" parent="WorldParts/Grass" instance=ExtResource( 2 )]
 position = Vector2( 791, 0 )
 
-[node name="Grass10" parent="Grass" instance=ExtResource( 2 )]
+[node name="Grass10" parent="WorldParts/Grass" instance=ExtResource( 2 )]
 position = Vector2( 852, 0 )
 
-[node name="Grass9" parent="Grass" instance=ExtResource( 2 )]
+[node name="Grass9" parent="WorldParts/Grass" instance=ExtResource( 2 )]
 position = Vector2( 913, 0 )
+
+[node name="Door" parent="WorldParts" instance=ExtResource( 3 )]
+position = Vector2( 458, 425 )
+
+[node name="Brick" parent="WorldParts" instance=ExtResource( 4 )]
+position = Vector2( 30, 419 )
+
+[node name="Brick2" parent="WorldParts" instance=ExtResource( 4 )]
+position = Vector2( 30, 359 )
+
+[node name="Brick4" parent="WorldParts" instance=ExtResource( 4 )]
+position = Vector2( 30, 298 )
+
+[node name="Brick3" parent="WorldParts" instance=ExtResource( 4 )]
+position = Vector2( 30, 238 )
+
+[node name="Brick5" parent="WorldParts" instance=ExtResource( 4 )]
+position = Vector2( -30, 238 )
+
+[node name="Brick6" parent="WorldParts" instance=ExtResource( 4 )]
+position = Vector2( -90, 238 )
+
+[node name="Brick7" parent="WorldParts" instance=ExtResource( 4 )]
+position = Vector2( -90, 177.706 )
+
+[node name="Brick8" parent="WorldParts" instance=ExtResource( 4 )]
+position = Vector2( -90, 118.92 )
+
+[node name="Brick12" parent="WorldParts" instance=ExtResource( 4 )]
+position = Vector2( 454.15, 338.992 )
+
+[node name="Brick10" parent="WorldParts" instance=ExtResource( 4 )]
+position = Vector2( -90, 58.6266 )
+
+[node name="Brick9" parent="WorldParts" instance=ExtResource( 4 )]
+position = Vector2( -90, -0.159689 )
+
+[node name="Brick11" parent="WorldParts" instance=ExtResource( 4 )]
+position = Vector2( -90, -57.4386 )
+
+[node name="CastleTop" parent="." instance=ExtResource( 5 )]
+position = Vector2( 453.709, 280.365 )
