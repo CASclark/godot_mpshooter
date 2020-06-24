@@ -28,7 +28,8 @@ texture = ExtResource( 4 )
 offset = Vector2( 30.1174, -0.546348 )
 
 [node name="gun" type="Sprite" parent="."]
-position = Vector2( -0.117432, 0.546348 )
+position = Vector2( 7.80485, -0.774033 )
+scale = Vector2( 0.7, 0.7 )
 z_index = 1
 texture = ExtResource( 3 )
 offset = Vector2( 50.1174, -10.5463 )

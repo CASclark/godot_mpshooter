@@ -8,6 +8,8 @@ export var jumpPower = -400
 export var jetpackPower = -150
 var jetpackJuice = 100   #gas for the jetpack
 
+var Bullet = preload("res://World Tiles/Bullet.tscn")
+
 func _physics_process(delta):
 	movement.y += 10
 	
