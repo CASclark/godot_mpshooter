@@ -36,7 +36,16 @@ func _physics_process(delta):
 
 	move_and_slide(movement, UP)
 	
+	if Input.is_action_just_pressed("shoot"):
+		shoot()
 	
 	$hand.look_at(get_global_mouse_position())
 	$gun.look_at(get_global_mouse_position())
+		
+func shoot():
+	#Muzzle is the 2d position placed on the gun.
+	var b = Bullet.instance()
+	b.start($gun/Muzzle.global_position, $gun.rotation)
+	get_parent().add_child(b)
+	
 		

@@ -34,5 +34,8 @@ z_index = 1
 texture = ExtResource( 3 )
 offset = Vector2( 50.1174, -10.5463 )
 
+[node name="Muzzle" type="Position2D" parent="gun"]
+position = Vector2( 85, -12 )
+
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true

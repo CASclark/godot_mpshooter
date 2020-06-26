@@ -857,7 +857,7 @@ position = Vector2( 1653.55, -64.8156 )
 position = Vector2( 2272.01, -92.2746 )
 
 [node name="Ledge4" parent="WorldParts" instance=ExtResource( 8 )]
-position = Vector2( 234.378, 77.2031 )
+position = Vector2( 240.68, 71.5308 )
 
 [node name="Ledge6" parent="WorldParts" instance=ExtResource( 8 )]
 position = Vector2( -52.8939, 88.8944 )
