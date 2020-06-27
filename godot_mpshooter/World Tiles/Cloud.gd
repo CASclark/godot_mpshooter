@@ -20,7 +20,7 @@ func _process(delta):
 		chooseRandY(minY,maxY,minSpeed,maxSpeed)
 		self.position.x = startXPos
 		
-	print(self.position.y)
+	#print(self.position.y)
 		
 func chooseRandY(MinY,MaxY,MinSpeed,MaxSpeed):
 	

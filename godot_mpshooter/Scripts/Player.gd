@@ -9,11 +9,14 @@ export var jetpackPower = -150
 var jetpackJuice = 100   #gas for the jetpack
 onready var flames = $Fire
 
+var playerHealth = 5
+
 #setting a reload for the gun
 export var bulletFull = 5
 var bulletCount = 5
 var reload = false
 
+onready var healthLabel = get_node("Label")
 
 var Bullet = preload("res://World Tiles/Bullet.tscn")
 
@@ -60,7 +63,7 @@ func _physics_process(delta):
 	else:
 		movement.y += 10  #this fixes falling too quickly
 		
-	
+	healthLabel.set_text(playerHealth as String)
 		
 	
 
@@ -107,4 +110,7 @@ func shoot():
 	if bulletCount <= 0:
 		reload = true
 	
+func healthHit():
+	playerHealth = playerHealth - 1
+	movement.y = -300
 		

@@ -71,4 +71,5 @@ soundcontrol={
 
 [rendering]
 
+environment/default_clear_color=Color( 0.384314, 0.572549, 0.533333, 1 )
 environment/default_environment="res://default_env.tres"
