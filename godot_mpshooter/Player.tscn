@@ -1,9 +1,11 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Art/character_roundGreen.png" type="Texture" id=1]
 [ext_resource path="res://Scripts/Player.gd" type="Script" id=2]
 [ext_resource path="res://Art/item_gun.png" type="Texture" id=3]
 [ext_resource path="res://Art/character_handGreen.png" type="Texture" id=4]
+[ext_resource path="res://playgradient.tres" type="Gradient" id=5]
+[ext_resource path="res://Sounds/SFX.tscn" type="PackedScene" id=6]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 13, 28 )
@@ -38,4 +40,17 @@ offset = Vector2( 50.1174, -10.5463 )
 position = Vector2( 85, -12 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
+offset = Vector2( 0, -150 )
 current = true
+smoothing_enabled = true
+
+[node name="Fire" type="CPUParticles2D" parent="."]
+position = Vector2( 0, 30 )
+amount = 20
+speed_scale = 3.75
+emission_shape = 1
+emission_sphere_radius = 3.75
+scale_amount = 5.0
+color_ramp = ExtResource( 5 )
+
+[node name="SFX" parent="." instance=ExtResource( 6 )]

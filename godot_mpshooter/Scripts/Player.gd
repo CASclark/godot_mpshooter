@@ -7,16 +7,23 @@ export var speed = 250
 export var jumpPower = -400
 export var jetpackPower = -150
 var jetpackJuice = 100   #gas for the jetpack
+onready var flames = $Fire
 
 #setting a reload for the gun
 export var bulletFull = 5
 var bulletCount = 5
 var reload = false
 
+
 var Bullet = preload("res://World Tiles/Bullet.tscn")
 
 func _physics_process(delta):
-	movement.y += 10
+	
+	
+		
+	
+	
+	flames.emitting = false
 	
 	var mouse_pos = get_global_mouse_position()   #these are the vars to set player flip
 	var player_pos = get_position()
@@ -35,20 +42,36 @@ func _physics_process(delta):
 		if jetpackJuice > 0:	#whilst there is gas in the jetpack
 			movement.y = jetpackPower
 			jetpackJuice -= 1
+			flames.emitting = true
+			var MusicNode = $SFX/jetpack
+			MusicNode.play()
+			
 		
 	elif jetpackJuice < 100: #when you take off the button will add up until gets to 100
 			jetpackJuice += 2
+			
+	if Input.is_action_just_released("jetpack"):
+		var MusicNode = $SFX/jetpack
+		MusicNode.stop()
 		
 	if is_on_floor():
 		if Input.is_action_pressed("jump"):
 			movement.y = jumpPower
+	else:
+		movement.y += 10  #this fixes falling too quickly
 		
+	
+		
+	
 
 	move_and_slide(movement, UP)
 	
 	if Input.is_action_just_pressed("shoot"):
 		if !reload: #if there are bullets remaining
 			shoot()
+		else:
+			var musicNode = $SFX/click
+			musicNode.play()
 		
 	$hand.look_at(get_global_mouse_position())   #rememeber to move the center of rotation into the middle of the player
 	$gun.look_at(get_global_mouse_position())
@@ -60,13 +83,23 @@ func _physics_process(delta):
 		
 	
 	if Input.is_action_just_pressed("reload"):
+		var musicNode = $SFX/gunreload
+		musicNode.play()
 		bulletCount = bulletFull
 		reload = false
+		
 			
 		
 func shoot():
 	#Muzzle is the 2d position placed on the gun.
 	var b = Bullet.instance()
+	if bulletCount>1:
+		var musicNode = $SFX/peuw
+		musicNode.play()
+	elif bulletCount == 1:
+		var musicNode = $SFX/chink
+		musicNode.play()
+		
 	b.start($gun/Muzzle.global_position, $gun.rotation)
 	get_parent().add_child(b)
 	bulletCount = bulletCount -1

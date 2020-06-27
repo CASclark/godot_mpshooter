@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/chink.ogg-34df3dd387c37370c4ed74f53d822501.oggstr"
+
+[deps]
+
+source_file="res://Sounds/chink.ogg"
+dest_files=[ "res://.import/chink.ogg-34df3dd387c37370c4ed74f53d822501.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
