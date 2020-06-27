@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://World Tiles/Grass.tscn" type="PackedScene" id=2]
@@ -10,6 +10,23 @@
 [ext_resource path="res://World Tiles/Ledge.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Sounds/BackgroundMusic.tscn" type="PackedScene" id=9]
 [ext_resource path="res://World.gd" type="Script" id=10]
+[ext_resource path="res://World Tiles/Cloud.tscn" type="PackedScene" id=11]
+
+[sub_resource type="ProceduralSky" id=2]
+sun_color = Color( 0.92549, 0.682353, 0.101961, 1 )
+
+[sub_resource type="Environment" id=1]
+background_mode = 2
+background_sky = SubResource( 2 )
+ambient_light_color = Color( 0.682353, 0.682353, 0.682353, 1 )
+ambient_light_energy = 3.44
+ambient_light_sky_contribution = 0.76
+fog_enabled = true
+fog_sun_amount = 0.38
+glow_enabled = true
+glow_intensity = 1.42
+glow_strength = 1.19
+glow_bloom = 0.15
 
 [node name="World" type="Node2D"]
 script = ExtResource( 10 )
@@ -859,19 +876,45 @@ position = Vector2( 1653.55, -64.8156 )
 [node name="Ledge" parent="WorldParts" instance=ExtResource( 8 )]
 position = Vector2( 2272.01, -92.2746 )
 
-[node name="Ledge4" parent="WorldParts" instance=ExtResource( 8 )]
-position = Vector2( 240.68, 71.5308 )
+[node name="Ledge4" parent="WorldParts/Ledge" instance=ExtResource( 8 )]
+position = Vector2( -2031.33, 163.805 )
 
-[node name="Ledge6" parent="WorldParts" instance=ExtResource( 8 )]
-position = Vector2( -52.8939, 88.8944 )
+[node name="Ledge6" parent="WorldParts/Ledge" instance=ExtResource( 8 )]
+position = Vector2( -2324.9, 181.169 )
 
-[node name="Ledge5" parent="WorldParts" instance=ExtResource( 8 )]
-position = Vector2( 1394.91, 329.212 )
+[node name="Ledge5" parent="WorldParts/Ledge" instance=ExtResource( 8 )]
+position = Vector2( -877.1, 421.487 )
 
-[node name="Ledge2" parent="WorldParts" instance=ExtResource( 8 )]
-position = Vector2( 2434.01, 69.7332 )
+[node name="Ledge2" parent="WorldParts/Ledge" instance=ExtResource( 8 )]
+position = Vector2( 162, 162.008 )
 
-[node name="Ledge3" parent="WorldParts" instance=ExtResource( 8 )]
-position = Vector2( 2140.06, 91.4455 )
+[node name="Ledge3" parent="WorldParts/Ledge" instance=ExtResource( 8 )]
+position = Vector2( -131.95, 183.72 )
 
 [node name="BackgroundMusic" parent="." instance=ExtResource( 9 )]
+
+[node name="Cloud" parent="." instance=ExtResource( 11 )]
+position = Vector2( 258.737, -72.0003 )
+
+[node name="Cloud5" parent="." instance=ExtResource( 11 )]
+position = Vector2( 1378.2, -56.8211 )
+
+[node name="Cloud2" parent="." instance=ExtResource( 11 )]
+position = Vector2( 121.937, 99 )
+
+[node name="Cloud6" parent="." instance=ExtResource( 11 )]
+position = Vector2( 1814.41, 296.329 )
+
+[node name="Cloud3" parent="." instance=ExtResource( 11 )]
+position = Vector2( 876.652, -262.195 )
+
+[node name="Cloud4" parent="." instance=ExtResource( 11 )]
+position = Vector2( 811.76, 219.377 )
+scale = Vector2( 2.25, 2.25 )
+
+[node name="Cloud7" parent="." instance=ExtResource( 11 )]
+position = Vector2( 2538.39, -4.51503 )
+scale = Vector2( 2.25, 2.25 )
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 1 )

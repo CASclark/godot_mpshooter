@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Art/background_cloudA.png" type="Texture" id=1]
+[ext_resource path="res://World Tiles/Cloud.gd" type="Script" id=2]
+
+[node name="Cloud" type="Node2D"]
+z_index = 8
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+minSpeed = 100
+maxSpeed = 200
+minY = -300
+endScreen = 4500
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 1.5, 1.5 )
+z_index = 8
+texture = ExtResource( 1 )
