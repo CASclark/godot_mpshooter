@@ -916,3 +916,6 @@ position = Vector2( 2662.16, 353.225 )
 
 [node name="Spikes7" parent="." instance=ExtResource( 12 )]
 position = Vector2( 1928.1, -76.0814 )
+
+[node name="Spikes8" parent="." instance=ExtResource( 12 )]
+position = Vector2( 1217.07, 418.716 )

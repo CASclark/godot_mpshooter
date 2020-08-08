@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="Curve" id=1]
+_data = [ Vector2( 0, 0.0340909 ), 0.0, 0.0, 0, 0, Vector2( 0.58046, 0.606818 ), 0.0, 0.0, 0, 0, Vector2( 0.994253, 1 ), 0.0, 0.0, 0, 0 ]
+
+[sub_resource type="Gradient" id=2]
+
+[node name="kaboom" type="CPUParticles2D"]
+amount = 50
+explosiveness = 0.46
+randomness = 0.11
+lifetime_randomness = 0.57
+emission_shape = 1
+emission_sphere_radius = 14.76
+direction = Vector2( 7, -5 )
+spread = 0.0
+gravity = Vector2( 0, 50 )
+initial_velocity = 53.76
+initial_velocity_random = 0.48
+radial_accel = 58.3
+tangential_accel = 32.26
+scale_amount = 3.0
+scale_amount_curve = SubResource( 1 )
+color_ramp = SubResource( 2 )

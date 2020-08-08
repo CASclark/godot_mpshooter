@@ -9,6 +9,7 @@ export var jetpackPower = -150
 var jetpackJuice = 100   #gas for the jetpack
 onready var flames = $Fire
 
+var maxHealth = 5
 var playerHealth = 5
 
 #setting a reload for the gun
@@ -16,16 +17,17 @@ export var bulletFull = 5
 var bulletCount = 5
 var reload = false
 
-onready var healthLabel = get_node("Label")
+onready var healthLabel = get_node("HealthBar")
+onready var bulletLabel = get_node("Label")
 
 var Bullet = preload("res://World Tiles/Bullet.tscn")
 
+func ready():
+	playerHealth = maxHealth
+
+
 func _physics_process(delta):
-	
-	
 		
-	
-	
 	flames.emitting = false
 	
 	var mouse_pos = get_global_mouse_position()   #these are the vars to set player flip
@@ -63,8 +65,9 @@ func _physics_process(delta):
 	else:
 		movement.y += 10  #this fixes falling too quickly
 		
-	healthLabel.set_text(playerHealth as String)
-		
+	bulletLabel.set_text(bulletCount as String)
+	healthLabel.value = playerHealth	
+	healthLabel.max_value = maxHealth
 	
 
 	move_and_slide(movement, UP)
